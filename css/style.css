@@ -41,9 +41,10 @@ body {
    border-right: .15em solid #ff5500;
    white-space: nowrap;
    margin: 0 auto;
+   width: fit-content;
    letter-spacing: .15em;
    animation: 
-       backwards typing 3.5s steps(40, end) infinite,
+       backwards typing 3.5s steps(40,end) infinite,
        blink-caret .5s step-end infinite;
    animation-direction: alternate;
 
@@ -51,8 +52,8 @@ body {
 
 @keyframes typing {
    0% { width: 0 }
-   70% { width: 100% }
-   100% {width: 100%}
+   70% { width: 75% }
+   100% {width: 75%}
 }
 
 @keyframes blink-caret {
